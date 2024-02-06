@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-02-06T12:24:57.932Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="w95OQTVk-Emcf5Bxqiq9" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-06T12:30:55.684Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ZEI7_tgd8hm_sdWKPihl" version="23.1.1" type="github">
   <diagram name="Page-1" id="GFifySusMShSwhzrOTK_">
-    <mxGraphModel dx="8032" dy="2280" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5272" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="HUT77cJScD1KmEGIFshK-110" value="" style="group;fillColor=default;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-2220" y="250" width="2180" height="1570" as="geometry" />
+          <mxGeometry x="-2230" y="264" width="2180" height="1570" as="geometry" />
         </mxCell>
         <mxCell id="HUT77cJScD1KmEGIFshK-108" value="&lt;font style=&quot;font-size: 80px;&quot;&gt;class diagram&lt;/font&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;perimeterSpacing=6;" vertex="1" parent="HUT77cJScD1KmEGIFshK-110">
           <mxGeometry x="-1350" y="-140" width="3530" height="1580" as="geometry" />
@@ -37,7 +37,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HUT77cJScD1KmEGIFshK-25" value="AComponent" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="HUT77cJScD1KmEGIFshK-110">
-          <mxGeometry x="425" y="585" width="330" height="180" as="geometry">
+          <mxGeometry x="425" y="585" width="330" height="206" as="geometry">
             <mxRectangle x="195" y="320" width="120" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -50,14 +50,17 @@
         <mxCell id="HUT77cJScD1KmEGIFshK-32" value="#std::vector&amp;lt;std::tuple&amp;lt;IComponent&amp;amp;, std::size_t&amp;gt;&amp;gt;&amp;gt; _links" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="HUT77cJScD1KmEGIFshK-25">
           <mxGeometry y="78" width="330" height="32" as="geometry" />
         </mxCell>
+        <mxCell id="HUT77cJScD1KmEGIFshK-256" value="#std::string _name" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="HUT77cJScD1KmEGIFshK-25">
+          <mxGeometry y="110" width="330" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="HUT77cJScD1KmEGIFshK-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="HUT77cJScD1KmEGIFshK-25">
-          <mxGeometry y="110" width="330" height="8" as="geometry" />
+          <mxGeometry y="136" width="330" height="8" as="geometry" />
         </mxCell>
         <mxCell id="HUT77cJScD1KmEGIFshK-28" value="+ getLink(std::size_t pin): Tristate" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="HUT77cJScD1KmEGIFshK-25">
-          <mxGeometry y="118" width="330" height="26" as="geometry" />
+          <mxGeometry y="144" width="330" height="26" as="geometry" />
         </mxCell>
         <mxCell id="HUT77cJScD1KmEGIFshK-53" value="+ setLink(std::size_t pin, nts::IComponent&amp;amp; other, std::size_t otherPin): Tristate" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="HUT77cJScD1KmEGIFshK-25">
-          <mxGeometry y="144" width="330" height="36" as="geometry" />
+          <mxGeometry y="170" width="330" height="36" as="geometry" />
         </mxCell>
         <mxCell id="HUT77cJScD1KmEGIFshK-30" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&amp;lt;&amp;lt;enumeration&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Tristate&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;text-align:left;&quot;&gt;Undefined (-1)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;text-align:left;&quot;&gt;True (1)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;text-align:left;&quot;&gt;False (0)&lt;/p&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;" vertex="1" parent="HUT77cJScD1KmEGIFshK-110">
           <mxGeometry x="855" y="490" width="110" height="94" as="geometry" />
@@ -216,7 +219,7 @@
         <mxCell id="HUT77cJScD1KmEGIFshK-248" value="Circuit" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="HUT77cJScD1KmEGIFshK-110">
           <mxGeometry x="1010" y="358" width="220" height="132" as="geometry" />
         </mxCell>
-        <mxCell id="HUT77cJScD1KmEGIFshK-249" value="#IComponent &amp;amp;topComponent" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="HUT77cJScD1KmEGIFshK-248">
+        <mxCell id="HUT77cJScD1KmEGIFshK-249" value="#map&amp;lt;std::string, IComponent&amp;amp;&amp;gt; outputComponents" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="HUT77cJScD1KmEGIFshK-248">
           <mxGeometry y="26" width="220" height="34" as="geometry" />
         </mxCell>
         <mxCell id="HUT77cJScD1KmEGIFshK-250" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="HUT77cJScD1KmEGIFshK-248">
