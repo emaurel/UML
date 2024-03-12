@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-12T14:02:19.455Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="fiQ1a4kc3ZAXIk7-qCmM" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-12T14:12:42.387Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="raYmN4bgo9fa4lbQAi6v" version="23.1.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1364" dy="1923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -18,13 +18,13 @@
         <mxCell id="KaFHptWk-zY7Z1poEmYC-2" value="«interface»&lt;br style=&quot;border-color: var(--border-color); font-weight: 400;&quot;&gt;IGame" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="60" y="180" width="270" height="126" as="geometry" />
         </mxCell>
-        <mxCell id="SAdS1VHzF3rAkhDOAL3j-10" value="# Event lastEvent" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="KaFHptWk-zY7Z1poEmYC-2">
+        <mxCell id="SAdS1VHzF3rAkhDOAL3j-10" value="#&amp;nbsp;&lt;span style=&quot;border-color: var(--border-color); text-align: center;&quot;&gt;KeyEvent&lt;/span&gt;&amp;nbsp;lastEvent" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="KaFHptWk-zY7Z1poEmYC-2">
           <mxGeometry y="40" width="270" height="26" as="geometry" />
         </mxCell>
         <mxCell id="KaFHptWk-zY7Z1poEmYC-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="KaFHptWk-zY7Z1poEmYC-2" vertex="1">
           <mxGeometry y="66" width="270" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="SAdS1VHzF3rAkhDOAL3j-0" value="+ update(const Map map, Event event): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="KaFHptWk-zY7Z1poEmYC-2">
+        <mxCell id="SAdS1VHzF3rAkhDOAL3j-0" value="+ update(const Map map,&amp;nbsp;KeyEvent&amp;nbsp;event): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="KaFHptWk-zY7Z1poEmYC-2">
           <mxGeometry y="74" width="270" height="26" as="geometry" />
         </mxCell>
         <mxCell id="KaFHptWk-zY7Z1poEmYC-5" value="+ render(Map *map): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KaFHptWk-zY7Z1poEmYC-2" vertex="1">
@@ -53,7 +53,7 @@
         <mxCell id="KaFHptWk-zY7Z1poEmYC-8" value="+ update(const Map map): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KaFHptWk-zY7Z1poEmYC-6" vertex="1">
           <mxGeometry y="74" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="SAdS1VHzF3rAkhDOAL3j-2" value="+ getEvent(void): Event" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="KaFHptWk-zY7Z1poEmYC-6">
+        <mxCell id="SAdS1VHzF3rAkhDOAL3j-2" value="+ getEvent(void):&amp;nbsp;&lt;span style=&quot;border-color: var(--border-color); text-align: center;&quot;&gt;KeyEvent&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="KaFHptWk-zY7Z1poEmYC-6">
           <mxGeometry y="100" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="SAdS1VHzF3rAkhDOAL3j-1" value="+ display(void): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="KaFHptWk-zY7Z1poEmYC-6">
@@ -118,7 +118,7 @@
         <mxCell id="SAdS1VHzF3rAkhDOAL3j-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=diamondThin;endFill=1;endSize=10;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="SAdS1VHzF3rAkhDOAL3j-7" target="KaFHptWk-zY7Z1poEmYC-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SAdS1VHzF3rAkhDOAL3j-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;enum : Event&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;None = 0&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Top = 1&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Right = 2&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Bottom = 3&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Left = 4&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="SAdS1VHzF3rAkhDOAL3j-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;enum : KeyEvent&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;None = 0&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Top = 1&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Right = 2&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Bottom = 3&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Left = 4&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="414" y="175" width="160" height="110" as="geometry" />
         </mxCell>
       </root>
