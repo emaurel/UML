@@ -1,14 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2024-03-12T17:13:01.209Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="XE_B9-17UBOlNTcmhVfp" version="24.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-12T17:14:20.913Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="jAjB31OcwOxEJ2alUHmx" version="24.0.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1509" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2868" dy="2677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="KaFHptWk-zY7Z1poEmYC-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=diamondThin;endFill=1;endSize=10;exitX=0.5;exitY=0.04;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KaFHptWk-zY7Z1poEmYC-2" target="KaFHptWk-zY7Z1poEmYC-18" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
+              <mxPoint x="215" y="90" />
               <mxPoint x="215" y="-30" />
-              <mxPoint x="825" y="-30" />
+              <mxPoint x="810" y="-30" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -40,7 +41,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1375" y="-30" />
-              <mxPoint x="825" y="-30" />
+              <mxPoint x="810" y="-30" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -75,7 +76,18 @@
           <mxGeometry y="246" width="390" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KaFHptWk-zY7Z1poEmYC-9" value="Map" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="640" y="620" width="310" height="160" as="geometry" />
+          <mxGeometry x="660" y="620" width="310" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="SIB_p-6PVzf6rfN3V-g3-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;dashed=1;" edge="1" parent="KaFHptWk-zY7Z1poEmYC-9" source="KaFHptWk-zY7Z1poEmYC-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-435" y="-270" as="sourcePoint" />
+            <mxPoint x="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-435" y="-110" />
+              <mxPoint x="150" y="-110" />
+              <mxPoint x="150" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="KaFHptWk-zY7Z1poEmYC-10" value="# std::array&amp;lt;std::array&amp;lt;std::string, sizeX&amp;gt;, sizeY&amp;gt; tiles" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KaFHptWk-zY7Z1poEmYC-9" vertex="1">
           <mxGeometry y="26" width="310" height="24" as="geometry" />
@@ -96,7 +108,7 @@
           <mxGeometry y="124" width="310" height="36" as="geometry" />
         </mxCell>
         <mxCell id="KaFHptWk-zY7Z1poEmYC-18" value="Arcade" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="690" y="-280" width="270" height="182" as="geometry">
+          <mxGeometry x="675" y="-280" width="270" height="182" as="geometry">
             <mxRectangle x="350" y="-140" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -170,27 +182,12 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1375" y="510" />
-              <mxPoint x="780" y="510" />
+              <mxPoint x="810" y="510" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SIB_p-6PVzf6rfN3V-g3-17" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0RhT2zRUCGfHNPgkeaA6-19">
-          <mxGeometry x="0.5706" y="7" relative="1" as="geometry">
-            <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SIB_p-6PVzf6rfN3V-g3-0" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Débat&lt;/h1&gt;&lt;p&gt;pour la map on utilisent un std::array ou un std::vector ?&lt;/p&gt;&lt;p&gt;L&#39;accessibilité à un array est de O(1) alors que sur un vector c&#39;est de l&#39;ordre de O(n) ce qui peut grandement ralentir le jeu si la fonction est trop souvent utilisée.&lt;/p&gt;&lt;p&gt;Par contre l&#39;utilisation d&#39;un array nécessite de connaître la taille de la map à la création de l&#39;objet, il pourrait donc y avoir un système où le jeu dit de quelle taille il a besoin pour la map.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1070" y="510" width="340" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="SIB_p-6PVzf6rfN3V-g3-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KaFHptWk-zY7Z1poEmYC-2" target="KaFHptWk-zY7Z1poEmYC-9">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="215" y="350" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="215" y="510" />
-              <mxPoint x="780" y="510" />
-              <mxPoint x="780" y="620" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry x="1000" y="620" width="340" height="180" as="geometry" />
         </mxCell>
         <mxCell id="SIB_p-6PVzf6rfN3V-g3-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=0;endSize=10;strokeWidth=2;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="0RhT2zRUCGfHNPgkeaA6-1" target="KaFHptWk-zY7Z1poEmYC-6">
           <mxGeometry relative="1" as="geometry" />
