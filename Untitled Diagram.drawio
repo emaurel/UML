@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-13T18:02:17.686Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="KO221iTPd3ElrHLRtcPm" version="24.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-14T18:37:10.184Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="TjnONUQgBLLyZvuFnTOp" version="24.0.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1509" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1556" dy="3756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -76,44 +76,46 @@
           <mxGeometry y="276" width="390" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KaFHptWk-zY7Z1poEmYC-9" value="Map" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="620" y="620" width="380" height="228" as="geometry" />
+          <mxGeometry x="480" y="620" width="590" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="SIB_p-6PVzf6rfN3V-g3-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="KaFHptWk-zY7Z1poEmYC-9" source="npStlnrnFKDRnEs1ksKJ-3" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-435" y="-270" as="sourcePoint" />
-            <mxPoint x="190" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-405" y="-110" />
-              <mxPoint x="190" y="-110" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="KaFHptWk-zY7Z1poEmYC-10" value="# const TileSet &amp;amp;tileSet" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KaFHptWk-zY7Z1poEmYC-9" vertex="1">
+          <mxGeometry y="26" width="590" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="KaFHptWk-zY7Z1poEmYC-10" value="# std::vector&amp;lt;std::vector&amp;lt;std::string&amp;gt;&amp;gt; tiles" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KaFHptWk-zY7Z1poEmYC-9" vertex="1">
-          <mxGeometry y="26" width="380" height="24" as="geometry" />
+        <mxCell id="qUGwSx63ep4lCny5rzQi-16" value="# std::vector&amp;lt;std::vector&amp;lt;std::string&amp;gt;&amp;gt; tiles" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="KaFHptWk-zY7Z1poEmYC-9">
+          <mxGeometry y="50" width="590" height="24" as="geometry" />
         </mxCell>
         <mxCell id="KaFHptWk-zY7Z1poEmYC-29" value="# int width" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KaFHptWk-zY7Z1poEmYC-9" vertex="1">
-          <mxGeometry y="50" width="380" height="20" as="geometry" />
+          <mxGeometry y="74" width="590" height="20" as="geometry" />
         </mxCell>
         <mxCell id="KaFHptWk-zY7Z1poEmYC-30" value="# int height" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KaFHptWk-zY7Z1poEmYC-9" vertex="1">
-          <mxGeometry y="70" width="380" height="20" as="geometry" />
+          <mxGeometry y="94" width="590" height="20" as="geometry" />
         </mxCell>
         <mxCell id="KaFHptWk-zY7Z1poEmYC-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="KaFHptWk-zY7Z1poEmYC-9" vertex="1">
-          <mxGeometry y="90" width="380" height="8" as="geometry" />
+          <mxGeometry y="114" width="590" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="qUGwSx63ep4lCny5rzQi-3" value="+ Map(const TileSet &amp;amp;tileSet);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="KaFHptWk-zY7Z1poEmYC-9">
+          <mxGeometry y="122" width="590" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qUGwSx63ep4lCny5rzQi-24" value="+ getTileSet() const: const TileSet &amp;amp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="KaFHptWk-zY7Z1poEmYC-9">
+          <mxGeometry y="148" width="590" height="26" as="geometry" />
         </mxCell>
         <mxCell id="KaFHptWk-zY7Z1poEmYC-12" value="+ getTile(int x, int y): std::string id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KaFHptWk-zY7Z1poEmYC-9" vertex="1">
-          <mxGeometry y="98" width="380" height="26" as="geometry" />
+          <mxGeometry y="174" width="590" height="26" as="geometry" />
         </mxCell>
         <mxCell id="KaFHptWk-zY7Z1poEmYC-17" value="+ setTile(int x, int y, std::string &amp;amp;id): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KaFHptWk-zY7Z1poEmYC-9" vertex="1">
-          <mxGeometry y="124" width="380" height="26" as="geometry" />
+          <mxGeometry y="200" width="590" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="GNgEnLZ1K1L9xbNA_MN0-1" value="+ getMap() const: std::vector&amp;lt;std::vector&amp;lt;std::string&amp;gt;&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="KaFHptWk-zY7Z1poEmYC-9">
-          <mxGeometry y="150" width="380" height="26" as="geometry" />
+        <mxCell id="GNgEnLZ1K1L9xbNA_MN0-1" value="+ getMap() const: std::vector&amp;lt;std::vector&amp;lt;std::string&amp;gt;&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KaFHptWk-zY7Z1poEmYC-9" vertex="1">
+          <mxGeometry y="226" width="590" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="GNgEnLZ1K1L9xbNA_MN0-2" value="+ forEach(std::function&amp;lt;void(std::string &amp;amp;, int, int)&amp;gt; &amp;amp;&amp;amp;callback): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="KaFHptWk-zY7Z1poEmYC-9">
-          <mxGeometry y="176" width="380" height="26" as="geometry" />
+        <mxCell id="GNgEnLZ1K1L9xbNA_MN0-2" value="+ forEach(std::function&amp;lt;void(std::string &amp;amp;, int, int)&amp;gt; &amp;amp;&amp;amp;callback): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KaFHptWk-zY7Z1poEmYC-9" vertex="1">
+          <mxGeometry y="252" width="590" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="GNgEnLZ1K1L9xbNA_MN0-3" value="+ forEach(std::function&amp;lt;void(std::string &amp;amp;, int, int)&amp;gt; &amp;amp;callback): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="KaFHptWk-zY7Z1poEmYC-9">
-          <mxGeometry y="202" width="380" height="26" as="geometry" />
+        <mxCell id="GNgEnLZ1K1L9xbNA_MN0-3" value="+ forEach(std::function&amp;lt;void(std::string &amp;amp;, int, int)&amp;gt; &amp;amp;callback): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KaFHptWk-zY7Z1poEmYC-9" vertex="1">
+          <mxGeometry y="278" width="590" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qUGwSx63ep4lCny5rzQi-14" value="+ drawText(int x, int y, const std::string &amp;amp;string, const TileSet::CharTable &amp;amp;charTable) const: void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="KaFHptWk-zY7Z1poEmYC-9">
+          <mxGeometry y="304" width="590" height="26" as="geometry" />
         </mxCell>
         <mxCell id="KaFHptWk-zY7Z1poEmYC-18" value="Arcade" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="675" y="-280" width="270" height="182" as="geometry">
@@ -192,16 +194,65 @@
         <mxCell id="0RhT2zRUCGfHNPgkeaA6-17" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Enum: EventType&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;NONE = 0&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;KEYBOARD = 1&lt;br&gt;MOUSE_CLICK = 2&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;MOUSE_MOVE = 3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="730" y="10" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="0RhT2zRUCGfHNPgkeaA6-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="SAdS1VHzF3rAkhDOAL3j-2" target="KaFHptWk-zY7Z1poEmYC-9" edge="1">
+        <mxCell id="0RhT2zRUCGfHNPgkeaA6-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1375" y="510" />
-              <mxPoint x="810" y="510" />
+              <mxPoint x="1380" y="341" />
+              <mxPoint x="1380" y="510" />
+              <mxPoint x="827" y="510" />
             </Array>
+            <mxPoint x="1380" y="340" as="sourcePoint" />
+            <mxPoint x="827.0034782608698" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SIB_p-6PVzf6rfN3V-g3-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=0;endSize=10;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="0RhT2zRUCGfHNPgkeaA6-1" target="KaFHptWk-zY7Z1poEmYC-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qUGwSx63ep4lCny5rzQi-4" value="TileSet" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1110" y="673" width="530" height="198" as="geometry">
+            <mxRectangle x="1120" y="665" width="80" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qUGwSx63ep4lCny5rzQi-10" value="# TileSet(const std::string &amp;amp;spriteId, std::pair&amp;lt;int, int&amp;gt; tileSize, std::vector&amp;lt;std::string&amp;gt; tileNames)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qUGwSx63ep4lCny5rzQi-4">
+          <mxGeometry y="26" width="530" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qUGwSx63ep4lCny5rzQi-6" value="# tileSize: std::pair&amp;lt;int, int&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qUGwSx63ep4lCny5rzQi-4">
+          <mxGeometry y="52" width="530" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qUGwSx63ep4lCny5rzQi-7" value="# tileSet:&amp;nbsp;std::map&amp;lt;std::string, ITexture (?)&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qUGwSx63ep4lCny5rzQi-4">
+          <mxGeometry y="78" width="530" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qUGwSx63ep4lCny5rzQi-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="qUGwSx63ep4lCny5rzQi-4">
+          <mxGeometry y="104" width="530" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="qUGwSx63ep4lCny5rzQi-18" value="? using CharTable = std::map&amp;lt;char, std::string&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qUGwSx63ep4lCny5rzQi-4">
+          <mxGeometry y="112" width="530" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qUGwSx63ep4lCny5rzQi-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="qUGwSx63ep4lCny5rzQi-4">
+          <mxGeometry y="138" width="530" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="qUGwSx63ep4lCny5rzQi-22" value="+ getTile(const std::string &amp;amp;name) const: const ITexture &amp;amp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qUGwSx63ep4lCny5rzQi-4">
+          <mxGeometry y="146" width="530" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qUGwSx63ep4lCny5rzQi-23" value="+ getTileName(const ITexture &amp;amp;texture) const&lt;span style=&quot;background-color: initial;&quot;&gt;: const std::string &amp;amp;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qUGwSx63ep4lCny5rzQi-4">
+          <mxGeometry y="172" width="530" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qUGwSx63ep4lCny5rzQi-13" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.003;entryY=1.154;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qUGwSx63ep4lCny5rzQi-4" target="qUGwSx63ep4lCny5rzQi-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SIB_p-6PVzf6rfN3V-g3-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="284" as="sourcePoint" />
+            <mxPoint x="827" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="284" />
+              <mxPoint x="210" y="510" />
+              <mxPoint x="827" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qUGwSx63ep4lCny5rzQi-20" value="Est-ce que ce serait pas bien d&#39;avoir using Vector2i = std::pair&amp;lt;int, int&amp;gt; ?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1180" y="950" width="270" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
