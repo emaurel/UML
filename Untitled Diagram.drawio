@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-16T21:51:24.449Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="VZJ89EnHdtixQJGWVZKT" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-16T22:10:14.991Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Crq7RgMxACVIS5UVh0tf" version="24.0.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1116" dy="1672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3720" dy="2845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -111,7 +111,7 @@
         <mxCell id="qUGwSx63ep4lCny5rzQi-24" value="+ getTileSet() const: const TileSet &amp;amp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KaFHptWk-zY7Z1poEmYC-9" vertex="1">
           <mxGeometry y="128" width="590" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="xgc-ymnuNBZn0Mu57k1D-4" value="+ getMapSize(): const Vector2i &amp;amp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="KaFHptWk-zY7Z1poEmYC-9">
+        <mxCell id="xgc-ymnuNBZn0Mu57k1D-4" value="+ getMapSize(): const Vector2i &amp;amp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KaFHptWk-zY7Z1poEmYC-9" vertex="1">
           <mxGeometry y="154" width="590" height="26" as="geometry" />
         </mxCell>
         <mxCell id="KaFHptWk-zY7Z1poEmYC-12" value="+ getTile(int x, int y): const std::string &amp;amp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KaFHptWk-zY7Z1poEmYC-9" vertex="1">
@@ -229,7 +229,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qUGwSx63ep4lCny5rzQi-4" value="TileSet" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1745" y="230" width="600" height="328" as="geometry">
+          <mxGeometry x="1768" y="230" width="600" height="328" as="geometry">
             <mxRectangle x="1120" y="665" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -245,7 +245,12 @@
         <mxCell id="qUGwSx63ep4lCny5rzQi-7" value="# tileSet:&amp;nbsp;std::map&amp;lt;std::string, Rect&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="qUGwSx63ep4lCny5rzQi-4" vertex="1">
           <mxGeometry y="104" width="600" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="xgc-ymnuNBZn0Mu57k1D-0" value="# charTable: CharTable" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qUGwSx63ep4lCny5rzQi-4">
+        <mxCell id="aNfsqs1KKAg-LSt-RlZ3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="qUGwSx63ep4lCny5rzQi-4" source="xgc-ymnuNBZn0Mu57k1D-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-58" y="143" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgc-ymnuNBZn0Mu57k1D-0" value="# charTable: CharTable" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="qUGwSx63ep4lCny5rzQi-4" vertex="1">
           <mxGeometry y="130" width="600" height="26" as="geometry" />
         </mxCell>
         <mxCell id="qUGwSx63ep4lCny5rzQi-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="qUGwSx63ep4lCny5rzQi-4" vertex="1">
@@ -260,20 +265,17 @@
         <mxCell id="qUGwSx63ep4lCny5rzQi-22" value="+ getTile(const std::string &amp;amp;name) const: const Rect &amp;amp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="qUGwSx63ep4lCny5rzQi-4" vertex="1">
           <mxGeometry y="198" width="600" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="xgc-ymnuNBZn0Mu57k1D-3" value="+ getChar(char c) const: const std::string &amp;amp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qUGwSx63ep4lCny5rzQi-4">
+        <mxCell id="xgc-ymnuNBZn0Mu57k1D-3" value="+ getChar(char c) const: const std::string &amp;amp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="qUGwSx63ep4lCny5rzQi-4" vertex="1">
           <mxGeometry y="224" width="600" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="xgc-ymnuNBZn0Mu57k1D-2" value="+ getTextureId() const: const std::string &amp;amp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qUGwSx63ep4lCny5rzQi-4">
+        <mxCell id="xgc-ymnuNBZn0Mu57k1D-2" value="+ getTextureId() const: const std::string &amp;amp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="qUGwSx63ep4lCny5rzQi-4" vertex="1">
           <mxGeometry y="250" width="600" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="xgc-ymnuNBZn0Mu57k1D-1" value="+ getTileSize() const: const Vector2i &amp;amp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qUGwSx63ep4lCny5rzQi-4">
+        <mxCell id="xgc-ymnuNBZn0Mu57k1D-1" value="+ getTileSize() const: const Vector2i &amp;amp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="qUGwSx63ep4lCny5rzQi-4" vertex="1">
           <mxGeometry y="276" width="600" height="26" as="geometry" />
         </mxCell>
         <mxCell id="HObhiwroFTpL6c3iYIp1-1" value="+ registerChars(const std::string &amp;amp;chars, std::vector&amp;lt;std::string&amp;gt; ids): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="qUGwSx63ep4lCny5rzQi-4" vertex="1">
           <mxGeometry y="302" width="600" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="qUGwSx63ep4lCny5rzQi-13" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.003;entryY=1.154;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qUGwSx63ep4lCny5rzQi-4" target="qUGwSx63ep4lCny5rzQi-3" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SIB_p-6PVzf6rfN3V-g3-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="IdPDv9dgJC-r_73cXI5t-32" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -329,7 +331,7 @@
         <mxCell id="IdPDv9dgJC-r_73cXI5t-25" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Enum:LibraryType&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;NONE = 0&lt;br&gt;GAME = 1&lt;br&gt;DISPLAY = 2&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1490" y="-600" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="IdPDv9dgJC-r_73cXI5t-27" value="+ getInstance(): std::shared_ptr&amp;lt;IGameModule | IDisplayModule&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="IdPDv9dgJC-r_73cXI5t-27" value="+ getInstance(IArcade arcade): IGameModule | IDisplayModule" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1260" y="-630" width="390" height="26" as="geometry" />
         </mxCell>
         <mxCell id="IdPDv9dgJC-r_73cXI5t-32" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Struct: GameDisplay&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;tiles: TileMap&lt;br&gt;sprites: std::vector&amp;lt;Sprite&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -338,8 +340,11 @@
         <mxCell id="IdPDv9dgJC-r_73cXI5t-35" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Modules&lt;/h1&gt;&lt;p&gt;Le &quot;Module&quot; correspond aux fonctions `extern &quot;C&quot; {}`&amp;nbsp; utiles pour récupérer le type du module, (càd Game ou Display) et une fois qu&#39;on a le type du Module, on peut simplement appeler la fonction `getInstance` pour récupérer la class de la lib, le retour de la fonction va-t-être fait en fonction du type obtenu par la fonction `getType`&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1700" y="-648" width="430" height="128" as="geometry" />
         </mxCell>
-        <mxCell id="IdPDv9dgJC-r_73cXI5t-36" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Prototypes&lt;/h1&gt;&lt;div&gt;extern &quot;C&quot; IGameModule | IDisplayModule getInstance(IArcade &amp;amp;arcade);&lt;/div&gt;&lt;div&gt;extern &quot;C&quot; LibraryType getType(void);&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1700" y="-490" width="400" height="90" as="geometry" />
+        <mxCell id="IdPDv9dgJC-r_73cXI5t-36" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Prototypes&lt;/h1&gt;&lt;div&gt;extern &quot;C&quot;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;std::shared_ptr&amp;lt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;IGameModule | IDisplayModule&amp;gt; getInstance(IArcade &amp;amp;arcade);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;extern &quot;C&quot; LibraryType getType(void);&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1700" y="-490" width="560" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aNfsqs1KKAg-LSt-RlZ3-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Chargement des Modules&lt;/h1&gt;&lt;div&gt;Au moment du chargement de la class Arcade, on va venir lire chacun des fichiers présent dans le dossier lib (.so). Nous allons venir charger chacun de ces `.so` dans le Arcade en regardant quel est le type de la lib (game ou display).&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Une fois qu&#39;on connaît le type de lib, on peut venir récupérer l&#39;instance en lui donnant une référence de la class Arcade dans laquelle on se trouvent, la class renvoyée va-t-être stockée dans la map correspondant dans le Arcade avec le nom qui est renvoyé par la méthode `getName()` présente dans toutes les libs.&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="900" y="-850" width="510" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
