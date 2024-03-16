@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-16T22:10:14.991Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Crq7RgMxACVIS5UVh0tf" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-16T22:12:29.267Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="eT5Ucb19vAc2_fV7X--u" version="24.0.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3720" dy="2845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3044" dy="2540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -298,18 +298,6 @@
         <mxCell id="IdPDv9dgJC-r_73cXI5t-8" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;GameDisplay:&lt;/h1&gt;&lt;div&gt;La TileSet est utilisée pour charger des sprite sheets, càd on lui donne une texture, la taille que doivent faire chaque tile et le nom de chacune des tiles.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;La CharTable va-t-être utilisée pour afficher du texte, dans la sprite sheet, il doit y avoir tous les caractères que vous souhaitez utiliser, vous les indiquez dans la CharTable et ensuite la méthode drawTexte se charge de remplacer directement les Tiles de la map par les tiles correspondantes au texte.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;La TileMap va donc servir à afficher l&#39;arrière plan du jeu, la map, tout ce qui va-t-être plus ou moins statique dans le jeu ou en tout cas qui n&#39;a pas de positions approximative entre deux tiles.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Les sprites sont des images dynamiques qui seront affiché par dessus la TileMap, la position d&#39;un sprite est en Float par ce qu&#39;un sprite peut se trouver entre deux tiles, mais la position d&#39;un sprite est liée à la TileMap dans le sens où si un sprite se trouve en X=5.5 Y=4, il se trouvera entre les tiles X=5 Y=4 et X=6 Y=4.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="640" y="556" width="830" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="IdPDv9dgJC-r_73cXI5t-11" value="Usings" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="350" y="-650" width="290" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="IdPDv9dgJC-r_73cXI5t-12" value="using Vector2i = std::pair&amp;lt;int, int&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="355" y="-606" width="190" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="IdPDv9dgJC-r_73cXI5t-13" value="using Vector2f = std::pair&amp;lt;float, float&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="355" y="-580" width="220" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="IdPDv9dgJC-r_73cXI5t-14" value="using Vector2d = std::pair&amp;lt;double, double&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="355" y="-554" width="245" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="IdPDv9dgJC-r_73cXI5t-33" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=0.996;exitY=0.474;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="IdPDv9dgJC-r_73cXI5t-16" target="IdPDv9dgJC-r_73cXI5t-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -320,7 +308,7 @@
           <mxGeometry x="540" y="-16" width="250" height="153" as="geometry" />
         </mxCell>
         <mxCell id="IdPDv9dgJC-r_73cXI5t-23" value="Module" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1240" y="-650" width="420" height="150" as="geometry" />
+          <mxGeometry x="1241" y="-650" width="420" height="150" as="geometry" />
         </mxCell>
         <mxCell id="IdPDv9dgJC-r_73cXI5t-24" value="+ getType(): LibraryType" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1260" y="-604" width="150" height="26" as="geometry" />
@@ -345,6 +333,15 @@
         </mxCell>
         <mxCell id="aNfsqs1KKAg-LSt-RlZ3-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Chargement des Modules&lt;/h1&gt;&lt;div&gt;Au moment du chargement de la class Arcade, on va venir lire chacun des fichiers présent dans le dossier lib (.so). Nous allons venir charger chacun de ces `.so` dans le Arcade en regardant quel est le type de la lib (game ou display).&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Une fois qu&#39;on connaît le type de lib, on peut venir récupérer l&#39;instance en lui donnant une référence de la class Arcade dans laquelle on se trouvent, la class renvoyée va-t-être stockée dans la map correspondant dans le Arcade avec le nom qui est renvoyé par la méthode `getName()` présente dans toutes les libs.&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="900" y="-850" width="510" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="aNfsqs1KKAg-LSt-RlZ3-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Struct: Vector2i&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;x = int&lt;br&gt;y = int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="585" y="-650" width="160" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="aNfsqs1KKAg-LSt-RlZ3-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Struct: Vector2f&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;x = float&lt;br&gt;y = float&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="585" y="-564" width="160" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="aNfsqs1KKAg-LSt-RlZ3-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Struct: Vector2d&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;x = double&lt;br&gt;y = double&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="585" y="-479" width="160" height="68" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
