@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-16T16:55:50.340Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="U2wq3-tnU1xZWlb1LgFj" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-16T17:00:57.580Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="nDCs5mBmm7zimVtsUAnp" version="24.0.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="797" dy="1528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="957" dy="1600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -326,7 +326,7 @@
         <mxCell id="IdPDv9dgJC-r_73cXI5t-35" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Modules&lt;/h1&gt;&lt;p&gt;Le &quot;Module&quot; correspond aux fonctions `extern &quot;C&quot; {}`&amp;nbsp; utiles pour récupérer le type du module, (càd Game ou Display) et une fois qu&#39;on a le type du Module, on peut simplement appeler la fonction `getInstance` pour récupérer la class de la lib, le retour de la fonction va-t-être fait en fonction du type obtenu par la fonction `getType`&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1700" y="-648" width="430" height="128" as="geometry" />
         </mxCell>
-        <mxCell id="IdPDv9dgJC-r_73cXI5t-36" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Prototypes&lt;/h1&gt;&lt;div&gt;extern &quot;C&quot; IGameModule | IDisplayModule getInstance(void);&lt;/div&gt;&lt;div&gt;extern &quot;C&quot; LibraryType getType(void);&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="IdPDv9dgJC-r_73cXI5t-36" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Prototypes&lt;/h1&gt;&lt;div&gt;extern &quot;C&quot; IGameModule | IDisplayModule getInstance(IArcade);&lt;/div&gt;&lt;div&gt;extern &quot;C&quot; LibraryType getType(void);&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1700" y="-490" width="400" height="90" as="geometry" />
         </mxCell>
       </root>
