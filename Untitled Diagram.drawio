@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-17T16:12:45.930Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="S957u0qWWl8xiyl41BpY" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-17T16:15:41.233Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="NDC8V50H41eyYSbYmvMe" version="24.0.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="957" dy="1600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4185" dy="3054" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -17,7 +17,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="KaFHptWk-zY7Z1poEmYC-2" value="«interface»&lt;br style=&quot;border-color: var(--border-color); font-weight: 400;&quot;&gt;IGameModule" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="220" y="-226" width="270" height="242" as="geometry" />
+          <mxGeometry x="220" y="-239" width="270" height="242" as="geometry" />
         </mxCell>
         <mxCell id="KaFHptWk-zY7Z1poEmYC-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="KaFHptWk-zY7Z1poEmYC-2" vertex="1">
           <mxGeometry y="40" width="270" height="8" as="geometry" />
@@ -227,7 +227,7 @@
               <mxPoint x="1520" y="180" />
               <mxPoint x="967" y="180" />
             </Array>
-            <mxPoint x="1520" y="80" as="sourcePoint" />
+            <mxPoint x="1520" y="110" as="sourcePoint" />
             <mxPoint x="967.0034782608698" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -286,9 +286,9 @@
         <mxCell id="HObhiwroFTpL6c3iYIp1-1" value="+ registerChars(const std::string &amp;amp;chars, std::vector&amp;lt;std::string&amp;gt; ids): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="qUGwSx63ep4lCny5rzQi-4" vertex="1">
           <mxGeometry y="302" width="600" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="SIB_p-6PVzf6rfN3V-g3-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="IdPDv9dgJC-r_73cXI5t-32" edge="1">
+        <mxCell id="SIB_p-6PVzf6rfN3V-g3-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;dashed=1;exitX=0.48;exitY=1.025;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="IdPDv9dgJC-r_73cXI5t-32" edge="1" source="npStlnrnFKDRnEs1ksKJ-3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="350" y="-10" as="sourcePoint" />
+            <mxPoint x="350" y="10" as="sourcePoint" />
             <mxPoint x="967" y="290" as="targetPoint" />
             <Array as="points">
               <mxPoint x="350" y="180" />
