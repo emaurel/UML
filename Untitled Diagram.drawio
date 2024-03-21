@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-20T16:33:40.578Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="m-EnJ-AB8A4tHpRFITys" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-21T18:37:20.641Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="9-oFKvCJT1QVR7A0Boha" version="24.0.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1664" dy="2715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2421" dy="3056" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -25,7 +25,7 @@
         <mxCell id="38xna_vCktXDgAspyVVN-0" value="+ ~IGameModule()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KaFHptWk-zY7Z1poEmYC-2" vertex="1">
           <mxGeometry y="48" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="PN3Ibimj9UwLfsdkt_BY-0" value="+ initGame(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="KaFHptWk-zY7Z1poEmYC-2">
+        <mxCell id="PN3Ibimj9UwLfsdkt_BY-0" value="+ initGame(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KaFHptWk-zY7Z1poEmYC-2" vertex="1">
           <mxGeometry y="74" width="270" height="26" as="geometry" />
         </mxCell>
         <mxCell id="6steR2QZ-ECjCt31r1JL-2" value="+ getAssets(): Assets &amp;amp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KaFHptWk-zY7Z1poEmYC-2" vertex="1">
@@ -433,6 +433,75 @@
         </mxCell>
         <mxCell id="6steR2QZ-ECjCt31r1JL-7" value="+ sounds: std::map&amp;lt;std::string, std::string&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="6steR2QZ-ECjCt31r1JL-4" vertex="1">
           <mxGeometry y="52" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1vfDNYXrzYKQMvXkmlyq-0" value="Structure: Assets" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-340" y="567" width="259" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="1vfDNYXrzYKQMvXkmlyq-1" value="+ tileSets: std::vector&amp;lt;TileSet&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1vfDNYXrzYKQMvXkmlyq-0">
+          <mxGeometry y="26" width="259" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1vfDNYXrzYKQMvXkmlyq-2" value="+ sounds: std::map&amp;lt;std::string, std::string&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1vfDNYXrzYKQMvXkmlyq-0">
+          <mxGeometry y="52" width="259" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1vfDNYXrzYKQMvXkmlyq-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1vfDNYXrzYKQMvXkmlyq-3" target="1vfDNYXrzYKQMvXkmlyq-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1vfDNYXrzYKQMvXkmlyq-3" value="struct: TileSet" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-620" y="554" width="220" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="1vfDNYXrzYKQMvXkmlyq-4" value="+ texturePath: std::string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1vfDNYXrzYKQMvXkmlyq-3">
+          <mxGeometry y="26" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1vfDNYXrzYKQMvXkmlyq-5" value="+ tileSize: Vector2i" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1vfDNYXrzYKQMvXkmlyq-3">
+          <mxGeometry y="52" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1vfDNYXrzYKQMvXkmlyq-6" value="+ tileNames: std::vector&amp;lt;std::string&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1vfDNYXrzYKQMvXkmlyq-3">
+          <mxGeometry y="78" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1vfDNYXrzYKQMvXkmlyq-9" value="TileMap" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-565" y="700" width="410" height="294" as="geometry" />
+        </mxCell>
+        <mxCell id="1vfDNYXrzYKQMvXkmlyq-11" value="# std::vector&amp;lt;std::vector&amp;lt;std::string&amp;gt;&amp;gt; tiles" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1vfDNYXrzYKQMvXkmlyq-9">
+          <mxGeometry y="26" width="410" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="1vfDNYXrzYKQMvXkmlyq-12" value="# Vector2i mapSize" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1vfDNYXrzYKQMvXkmlyq-9">
+          <mxGeometry y="50" width="410" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1vfDNYXrzYKQMvXkmlyq-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="1vfDNYXrzYKQMvXkmlyq-9">
+          <mxGeometry y="70" width="410" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="1vfDNYXrzYKQMvXkmlyq-30" value="? using CharTable = std::map&amp;lt;char, std::string&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1vfDNYXrzYKQMvXkmlyq-9">
+          <mxGeometry y="78" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1vfDNYXrzYKQMvXkmlyq-31" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="1vfDNYXrzYKQMvXkmlyq-9">
+          <mxGeometry y="104" width="410" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="1vfDNYXrzYKQMvXkmlyq-14" value="+ TileMap(Vector2i size);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1vfDNYXrzYKQMvXkmlyq-9">
+          <mxGeometry y="112" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1vfDNYXrzYKQMvXkmlyq-16" value="+ getMapSize() const: const Vector2i &amp;amp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1vfDNYXrzYKQMvXkmlyq-9">
+          <mxGeometry y="138" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1vfDNYXrzYKQMvXkmlyq-17" value="+ getTile(int x, int y) const: const std::string &amp;amp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1vfDNYXrzYKQMvXkmlyq-9">
+          <mxGeometry y="164" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1vfDNYXrzYKQMvXkmlyq-18" value="+ setTile(int x, int y, std::string &amp;amp;id): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1vfDNYXrzYKQMvXkmlyq-9">
+          <mxGeometry y="190" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1vfDNYXrzYKQMvXkmlyq-19" value="+ forEach(std::function&amp;lt;void(std::string &amp;amp;, int, int)&amp;gt; &amp;amp;&amp;amp;callback): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1vfDNYXrzYKQMvXkmlyq-9">
+          <mxGeometry y="216" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1vfDNYXrzYKQMvXkmlyq-20" value="+ forEach(std::function&amp;lt;void(std::string &amp;amp;, int, int)&amp;gt; &amp;amp;callback): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1vfDNYXrzYKQMvXkmlyq-9">
+          <mxGeometry y="242" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1vfDNYXrzYKQMvXkmlyq-21" value="+ drawText(int x, int y, const std::string &amp;amp;text, CharTable &amp;amp;charTable): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1vfDNYXrzYKQMvXkmlyq-9">
+          <mxGeometry y="268" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1vfDNYXrzYKQMvXkmlyq-37" value="Débat" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-780" y="60" width="840" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="1vfDNYXrzYKQMvXkmlyq-38" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;TileSet Refacto&lt;/h1&gt;&lt;p&gt;Je vous propose un petit refacto pour mieux gérer les TileSet par ce que là, il y a un problème d&#39;implémentation qu&#39;il va falloir gérer dans tous les jeux si nous ne le changeons pas.&lt;/p&gt;&lt;p&gt;Le problème est que actuellement la TileMap va-t-être chargé dans la méthode `initGame()`, le problème de cela est que si la librairie graphique qui est chargée est mal implémentée et que la taille de la texture qui est renvoyée est mauvaise, cela le restera tant que le jeu n&#39;aura pas été changé, même si la librairie graphique change sur une qui fonctionne correctement.&lt;/p&gt;&lt;p&gt;Oui, le problème vient notamment du fait que là, le jeu devient dépendant de la librairie graphique ce qui est quand même un peu problématique :/&lt;/p&gt;&lt;p&gt;C&#39;est pour cela que je propose une solution en envoyant dans la méthode `getAssets` toutes les informations sur la TileSet, comme ça c&#39;est la lib graphique qui se charge de charger la texture, puis de récupérer la Texture pour ensuite découper les Tiles sur la texture avec des Rect.&lt;/p&gt;&lt;p&gt;Avec cette solution, cela rendra le jeu plus &lt;b&gt;indépendant&lt;/b&gt;&amp;nbsp;vis-à-vis de la lib graphique, cela permettra aussi de charger plusieurs TileSet depuis différentes textures, ce qui n&#39;était pas possible avant, et cela simplifiera le fait de devoir gérer les cas de si la lib graphique s&#39;est mal chargée alors il faut recharger la TileSet dans le jeu, ce qui n&#39;est pas une logique sensé être dans le jeu.&lt;/p&gt;&lt;p&gt;Par contre, cela demande donc un changement dans le structure (d&#39;où le débat), et l&#39;implémentation de cela côté Display complexifiera le chargement des textures et donc des TileSet côté Display (je pense personnellement que c&#39;est quelque chose de graphique donc que ça devrait se trouver là)&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;BREF ! VOILA :)&lt;br&gt;Je vous laisserai voter sur le Discord :D&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-730" y="100" width="730" height="421" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
